@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>ShowYourMadSkill</title>
+</head>
+<body>
+<aside class="sidebar">
+    <div class="control">
+        <label for="colorpicker" class="control__label">Color</label>
+        <input type="color" value="#000000" id="colorpicker" class="control__input control__input--color">
+    </div>
+    <div class="control control--range">
+        <label for="sizer" class="control__label">Size</label>
+        <input type="range" id="sizer" min="1" max="5" value="3" class="control__input control__input--range">
+    </div>
+</aside>
+<canvas id="canvas" width="1920" height="1080"></canvas>
+<script src="/socket.io/socket.io.js"></script>
+<script src="script.js" type="module"></script>
+</body>
+</html>

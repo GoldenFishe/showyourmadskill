@@ -1,0 +1,24 @@
+{
+  "name": "show_your_mad_skill",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.3.2",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  },
+  "engines": {
+    "node": "12.11.0",
+    "npm": "6.11.3"
+  }
+}
